@@ -36,7 +36,11 @@
       "encoding": {
         "color": {
           "field": "forest_area",
-          "type": "quantitative"
+          "type": "quantitative",
+          "scale": {
+
+            "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+            }
         },
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},
@@ -45,3 +49,5 @@
       }
     }
   ]
+  
+}
