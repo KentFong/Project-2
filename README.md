@@ -1,6 +1,6 @@
 # Vega Lite Visualisation
 
-## 1. Forest Area per Country
+## Forest Area per Country
 
 The visualiastion will be shown on 
 
