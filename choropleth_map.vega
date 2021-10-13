@@ -34,7 +34,7 @@
         "mark": {"type": "geoshape"},
         "encoding": {
           "color": {
-            "field": "forest_area",
+            "field": "Forest Area",
             "type": "quantitative",
             "scale": {
   
