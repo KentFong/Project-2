@@ -130,7 +130,7 @@ body {
 }
 
 .page {
-    width: 1350px;
+    width: 100%;
     background-color: white;
     margin: auto;
     padding: 50px;
