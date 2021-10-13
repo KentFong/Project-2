@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {"url": "https://raw.githubusercontent.com/KentFong/Project-2/main/land-use-palm-oil.csv"},
-    "width": 600,
+    "width": 500,
     "height": 400,
     "title": "Hover through the chart to enquire more data",
     "encoding": {"x": {"field": "Year", "type": "temporal"}},
