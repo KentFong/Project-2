@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Percentage of Forest Area per Country",
-  "width": 500,
-  "height": 500,
+  "width": "600",
+  "height": "600",
    "projection": {"type": "equirectangular"},
   "params": [
   {
@@ -69,7 +69,7 @@
         },
         "tooltip": [
           {"field": "entity", "type": "nominal", "title": "Country"},
-          {"field": "Forest Area", "type": "quantitative"},
+          {"field": "Forest Area", "type": "quantitative", "title": "Forest Area (%)"},
           {"field": "year", "type": "quantitative", "title": "Year"}
         ]}}]
   }
