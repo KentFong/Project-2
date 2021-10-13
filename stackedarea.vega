@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title" : "Causes for Deforestation in Brasil",
+  "width": 600, "height": 600,
+  "data": {"url": "https://raw.githubusercontent.com/KentFong/Project-2/main/brazil_loss.csv"},
+   "selection": { "highlight": {
+ "type": "multi",
+ "fields": ["cause"],
+ "bind": "legend"
+ }
+ },
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "timeUnit": "yearmonth", "field": "year",
+      "axis": {"format": "%Y"}
+    },
+    "y": {
+      "aggregate": "sum", "field": "count"
+    },
+    "color": {
+      "field": "cause",
+      "scale": {"scheme": "category20c"}
+    },
+  
+  "opacity": {
+ "condition": {"selection": "highlight", "value": 1.6},
+ "value": 0.2
+ },
+
+    "tooltip": [
+ {"field": "count", "type": "quantitative"},
+ {"field": "cause", "type": "nominal"}
+    ]
+  }
+}
