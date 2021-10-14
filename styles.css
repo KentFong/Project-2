@@ -166,3 +166,30 @@ h1 {
 .small-font {
     font-size: 14px;
 }
+
+.green {
+	font-weight: 700;
+	color:green
+}
+
+.red {
+	font-weight: 700;
+	color:red
+}
+
+.blue {
+	font-weight: 700;
+	color:blue
+}
+
+.orange {
+	font-weight: 700;
+	color:orange
+}
+
+.bold {
+	font-weight: 700;
+}
+
+
+
