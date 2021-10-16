@@ -115,15 +115,19 @@ a.button1:hover{
 
 h2 {
     font-weight: 800;
+	padding: 50px 0 50px;
     text-align: center;
     font-size: xx-large;
-	padding-top: 50px;
+	color: white;
+	background-color: #00563F;
+	display: inline-block;
 }
 
 p{
     text-align: center;
     font-size: large;
 	padding-top: 20px;
+	font-weight: 500;
 }
 
 body {
@@ -133,7 +137,7 @@ body {
 
 .page {
     width: 1400px;
-    background-color: white;
+    background-color: lightcyan;
     margin: auto;
     padding: 50px;
     padding-top: 35px;
