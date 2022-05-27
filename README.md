@@ -1,5 +1,5 @@
-## FIT3179 Project 2
-Fong Chun Kent 32189117
+## Data Visualisation Project
+Fong Chun Kent 
 
 ## Resources : 
 Dataset from https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-04-06/readme.md                    
