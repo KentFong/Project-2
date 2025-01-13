@@ -1,4 +1,4 @@
-## Data Visualisation Project
+## Data Visualisation Project (Global Deforestation)
 Fong Chun Kent 
 
 ## Resources : 
